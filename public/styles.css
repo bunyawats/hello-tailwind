@@ -599,6 +599,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-40 {
   height: 10rem;
 }
@@ -645,6 +649,10 @@ video {
 
 .flex-none {
   flex: none;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row-reverse {
