@@ -615,6 +615,14 @@ video {
   width: 2.5rem;
 }
 
+.w-0 {
+  width: 0px;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
@@ -625,6 +633,10 @@ video {
 
 .flex-col-reverse {
   flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .bg-red-500 {
