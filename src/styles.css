@@ -8,3 +8,9 @@
         @apply text-green-500 underline
     }
 }
+
+@layer components{
+    .menu-button {
+        @apply text-white bg-indigo-500 p-5 rounded-2xl uppercase
+    }
+}
